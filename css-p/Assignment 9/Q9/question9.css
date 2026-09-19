@@ -1,0 +1,8 @@
+* { box-sizing: border-box; }
+body { margin: 0; padding: 30px; font-family: Arial, sans-serif; background: #f7f7f7; }
+h1 { text-align: center; }
+.principles { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 35px; }
+article { padding: 30px; border-radius: 12px; background: white; transition: background .4s ease, color .4s ease, transform .3s ease; }
+article:hover { background: linear-gradient(135deg, #333, #777); color: white; transform: translateY(-5px); }
+code { display: block; margin-top: 15px; font-family: monospace; }
+@media (max-width: 600px) { .principles { grid-template-columns: 1fr; } }
