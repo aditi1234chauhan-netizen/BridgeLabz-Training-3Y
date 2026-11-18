@@ -1,0 +1,9 @@
+body { font-family: Arial, sans-serif; margin: 30px; transition: .2s; }
+main { max-width: 700px; margin: auto; padding: 30px; border-radius: 10px; }
+body[data-theme="light"] { background: #f4f4f4; color: #222; }
+body[data-theme="light"] main { background: white; }
+body[data-theme="dark"] { background: #171717; color: white; }
+body[data-theme="dark"] main { background: #303030; }
+body[data-theme="blue"] { background: #dceeff; color: #082b50; }
+body[data-theme="blue"] main { background: #b9dcff; }
+button { padding: 10px 16px; margin: 5px; cursor: pointer; }
