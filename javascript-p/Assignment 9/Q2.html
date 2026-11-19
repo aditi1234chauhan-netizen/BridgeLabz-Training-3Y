@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Q2 - Product Highlight</title>
+<style>
+body{font-family:Arial;margin:25px;background:#f7f7f7}.products{display:flex;gap:15px;flex-wrap:wrap}
+.product{background:white;border:1px solid #ddd;padding:18px;width:155px;border-radius:9px;cursor:pointer}
+.product.selected{outline:3px solid #2878d0}.product[data-discount]{background:#fff4d8}
+.details{display:none;color:#555;font-size:13px}.heart{float:right}
+</style></head><body>
+<h1>Product Highlights</h1><div class="products">
+<div class="product" data-stock="yes"><span class="heart">♡</span><h3>Headphones</h3><p>₹1,499</p><p class="details">Wireless audio with comfortable ear cushions.</p></div>
+<div class="product" data-stock="no"><span class="heart">♡</span><h3>Smart Watch</h3><p>₹2,999</p><p class="details">Fitness tracking and message notifications.</p></div>
+<div class="product" data-stock="yes" data-discount="20"><span class="heart">♡</span><h3>Keyboard</h3><p>₹899 - 20% off</p><p class="details">Compact keyboard for everyday use.</p></div>
+<div class="product" data-stock="yes" data-discount="10"><span class="heart">♡</span><h3>Mouse</h3><p>₹499 - 10% off</p><p class="details">Ergonomic mouse with smooth tracking.</p></div>
+<div class="product" data-stock="yes"><span class="heart">♡</span><h3>Speaker</h3><p>₹1,199</p><p class="details">Portable speaker with clear sound.</p></div>
+</div>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script><script src="Q2.js"></script></body></html>
